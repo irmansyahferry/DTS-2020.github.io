@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferry Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body id="responsive">
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="#" class="logo"><img src="img/rsz_1a14045d08cc8ac10b865181f683da0b1.jpg"></a>
+                </div>
+                <div class="hamburger">
+                    <label for="toggle-nav">
+                        <img src="data:image/png;base64,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" alt="menu" class="nav-menu" width="30">
+                    </label>
+                </div>
+            </div>
+            <input type="checkbox" id="toggle-nav">
+            <div class="header-right">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+    </header>
+    <div class="top-wrapper">
+        <div class="container">
+            <h1>What is social distancing?</h1>
+            <p>Social distancing, also called “physical distancing,” </p>
+            <p>means keeping space between yourself and other people outside of your home. </p>
+            <p>To practice social or physical distancing:</p>   
+                <li>Stay at least 6 feet (about 2 arms’ length) from other people</li>
+                <li>Do not gather in groups</li>
+                <li>Stay out of crowded places and avoid mass gatherings</li>
+            </p>
+            <p>In addition to everyday steps to prevent COVID-19, </p>
+            <P>keeping space between you and others is  one of the best tools</p>
+            <p>we have to avoid being exposed to this virus</p>
+            <div class="btn-wrapper">
+                <a href="#" class="btn start">LEARN MORE</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="heading">
+                <h2>Cleanse</h2>
+            </div>
+            <div class="extra-main">
+                <div class="main">
+                    <div class="main-photo">
+                        <img src="img/rsz_4step_1.png" alt="place">
+                        <p>Step 1 Cleanser — Remove makeup</p>
+                    </div>
+                    <p class="main-contents">Oil-based makeup can’t be effectively removed with soap or face wash.</p>
+                </div>
+                <div class="main">
+                    <div class="main-photo">
+                        <img src="img/rsz_14step_2.png" alt="time">
+                        <p>Step 2 Face-wash — Thoroughly cleanse the skin</p>
+                    </div>
+                    <p class="main-contents">When washing your face it’s important to remember not to rub (which can harm the skin).</p>
+                </div>
+                <div class="main">
+                    <div class="main-photo">
+                        <img src="img/4step_3.png" alt="flight">
+                        <p>Step 3 Moisturizing Lotion — Replenish skin with moisture</p>
+                    </div>
+                    <p class="main-contents">After washing your face in the morning and at night, take an adequate amount of moisturizing lotion 
+                        on a cotton pad or your hand, and gently apply it over your whole face. </p>
+                </div>
+                <div class="main">
+                    <div class="main-photo">
+                        <img src="img/4step_4.png" alt="accomodation">
+                        <p>Step 4 Emulsion</p>
+                    </div>
+                    <p class="main-contents">Both emulsion and moisturizing cream are primarily for night-time use.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="extra-wrapper">
+        <div class="container">
+            <div class="heading">
+                <h2>ME</h2>
+            </div>
+            <div class="extra-photos">
+                <div class="photos">
+                    <img src="https://instagram.fbdo6-1.fna.fbcdn.net/v/t51.2885-19/s150x150/21689408_1456548691125186_8087419415458480128_n.jpg?_nc_ht=instagram.fbdo6-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=7hPu8c2KGdwAX9O7Zm8&oh=129937f7fe6f419717b5eb1ba71dfbf3&oe=5ECFC676">
+                    <p>FERRY IRMANSYAH</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bot-wrapper">
+        <div class="container">
+            <h1>LOOKING FOR ME?</h1>
+            <div class="btn-wrapper">
+                <a href="#" class="btn get">COME JOINT</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-left">
+                <p class="copyright">&copy;2020 No Team.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
